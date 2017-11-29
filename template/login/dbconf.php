@@ -3,7 +3,7 @@
 $host = "localhost"; // Host name
 $username = "root"; // Mysql username
 $password = "admin123"; // Mysql password
-$db_name = "hakkers"; // Database name
+$db_name = "examen"; // Database name
 
 //DO NOT CHANGE BELOW THIS LINE UNLESS YOU CHANGE THE NAMES OF THE MEMBERS AND LOGINATTEMPTS TABLES
 

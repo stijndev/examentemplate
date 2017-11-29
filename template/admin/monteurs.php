@@ -21,12 +21,12 @@
                   <table class="table">
                     <thead>
                       <tr>
-                        <th hidden>ID</th>
                         <th>Voornaam</th>
                         <th>Achternaam</th>
                         <th>Telefoonnummer</th>
                         <th>Gebruikersnaam</th>
                         <th>E-mail</th>
+                        <th>Status</th>
                       </tr>
                     </thead>
                   <tbody>
@@ -34,12 +34,12 @@
                 <?php
                 foreach($result as $key => $res) {
                   echo '<tr>
-                        <td hidden>'. $res['id'] .'</td>
                         <td>'. $res['firstname'] .'</td>
                         <td>'. $res['lastname'] .'</td>
                         <td>'. $res['phone'] .'</td>
                         <td>'. $res['username'] .'</td>
-                        <td>'.  $res['email'] .'</td>
+                        <td>'. $res['email'] .'</td>
+                        <td>'. $res['fk_stat_id'] .'</td>
                         </tr>
                   ';
                 }

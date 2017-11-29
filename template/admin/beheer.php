@@ -23,7 +23,7 @@
     <div id="page-content-wrapper">
 
       <div class="container-fluid">
-        <h1>Installatiebedrijf Hakkers - Monteurs</h1>
+        <h1>Installatiebedrijf Hakkers - Klus aanmaken</h1>
       </div>
       <!-- end container-fluid -->
 
@@ -31,7 +31,7 @@
         <div class="col-md-4">
 
           <form class="form-signup" id="jobcreate" name="jobcreate" method="post" action="admn_inc/job_create.php">
-
+            <label for="">Klus gegevens</label>
             <div class="form-group">
               <input name="title" id="title" type="text" class="form-control" placeholder="Titel" autofocus>
             </div>
@@ -75,7 +75,7 @@
         <!-- end col-md-4 -->
 
         <div class="col-md-4">
-
+          <label for="">Adres gegevens</label>
           <div class="form-group">
             <input name="customername" id="customername" type="text" class="form-control" placeholder="Naam">
           </div>
