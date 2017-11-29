@@ -3,6 +3,7 @@
       include 'admn_inc/admin_header.php';
       $admin = new Admin();
 
+      // query uitvoeren en monteur gegevens ophalen
       $query = "SELECT * FROM members WHERE planner = 0";
       $result = $admin->displayMechanics($query);
       ?>
