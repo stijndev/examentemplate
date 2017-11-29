@@ -9,7 +9,7 @@
       //selecting data associated with this particular id
       $result = $usrData->getID("SELECT * FROM jobs WHERE id=$id");
 
-      // loop variables
+      // loop variables jj
       foreach ($result as $res) {
           $title = $res['title'];
           $mechanic = $res['fk_mech_id'];
